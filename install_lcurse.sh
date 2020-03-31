@@ -19,7 +19,7 @@ echo
 # Pedir confirmación
 while true; do
 echo
-read -p "¿Está seguro que esta en la misma carpeta de compilación? " yn
+read -p "¿Quiere realizar la instalación? " yn
 case $yn in
 si ) break;;
 no ) exit;;
