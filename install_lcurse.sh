@@ -65,5 +65,5 @@ echo
 echo "Presiona una tecla para continuar...";
 read 
 
-# Ejecutar ayuda del programa
+# Ejecutar el programa
 pipenv run ./lcurse
