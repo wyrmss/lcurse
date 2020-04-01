@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+# menú
 clear
 while :
 do
@@ -22,10 +22,6 @@ echo
 sudo zypper ar  http://download.opensuse.org/repositories/home:/aboe76/openSUSE_Tumbleweed/ home:aboe76
 sudo zypper refresh
 sudo zypper in python3-pipenv python3-sip python3-qt5 git python3-lxml python3-cfscrape kdelibs4support python3-virtualenv python3-virtualenv-clone
-#echo " Se va a proceder a reiniciar el ordenador, intro para continuar"
-#sudo shutdown -r
-#echo "En breve se reiniciará"
-#exit 1
 ;;
 
 2) echo
