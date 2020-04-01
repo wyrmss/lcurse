@@ -9,3 +9,5 @@ Ejecutar:
 ./install_lcurse.sh
 
 Si no se instala cambia la version de python en el archivo pipfile a la de tu sistema.
+
+Link al creador del programa: https://github.com/ephraim/lcurse
