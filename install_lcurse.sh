@@ -52,25 +52,7 @@ pipenv run ./lcurse
 ;;
 3) echo "Creando acceso directo";
 #Crear lanzador
-echo "[Desktop Entry]
-Comment[es_ES]=Guion de Python para tener un cliente compatible de "curse" para linux
-Comment=Guion de Python para tener un cliente compatible de "curse" para linux
-Exec=pipenv   run  ./lcurse
-GenericName[es_ES]=Gestor de complementos de WoW
-GenericName=Gestor de complementos de WoW
-Icon=/home/$USER/bin/lcurse/media/icon.ico
-MimeType=
-Name[es_ES]=lcurse
-Name=lcurse
-Path=/home/$USER/bin/lcurse
-StartupNotify=true
-Terminal=false
-TerminalOptions=
-Type=Application
-X-DBUS-ServiceName=
-X-DBUS-StartupType=none
-X-KDE-SubstituteUID=false
-X-KDE-Username=" >> /home/$USER/Escritorio/lcurse
+cp lcurse.desktop /home/$USER/Escritorio/lcurse.desktop
 ;;
 4) pip uninstall pipenv
 rm -vrf /home/wyrms/.local/share/virtualenvs/
