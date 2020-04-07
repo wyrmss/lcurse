@@ -72,8 +72,7 @@ X-DBUS-StartupType=none
 X-KDE-SubstituteUID=false
 X-KDE-Username=" >> /home/$USER/Escritorio/lcurse
 ;;
-4) cd /home/$USER/bin/OpenCorsairLink/
-pip uninstall pipenv
+4) pip uninstall pipenv
 rm -vrf /home/wyrms/.local/share/virtualenvs/
 rm -vrf /home/wyrms/.lcurse/
 rm -vrf /home/wyrms/bin/lcurse/
