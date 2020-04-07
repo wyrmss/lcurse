@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[es_ES]=Guion de Python para tener un cliente compatible de "curse" para linux
+Comment=Guion de Python para tener un cliente compatible de "curse" para linux
+Exec=pipenv   run  ./lcurse
+GenericName[es_ES]=Gestor de complementos de WoW
+GenericName=Gestor de complementos de WoW
+Icon=/home/wyrms/bin/lcurse/media/icon.ico
+MimeType=
+Name[es_ES]=lcurse
+Name=lcurse
+Path=/home/wyrms/bin/lcurse
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
