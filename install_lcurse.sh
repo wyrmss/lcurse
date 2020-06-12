@@ -55,9 +55,9 @@ pipenv run ./lcurse
 cp lcurse.desktop /home/$USER/Escritorio/lcurse.desktop
 ;;
 4) pip uninstall pipenv
-rm -vrf /home/wyrms/.local/share/virtualenvs/
-rm -vrf /home/wyrms/.lcurse/
-rm -vrf /home/wyrms/bin/lcurse/
+rm -vrf /home/$USER/.local/share/virtualenvs/
+rm -vrf /home/$USER/.lcurse/
+rm -vrf /home/$USER/bin/lcurse/
 rm -f /home/$USER/Escritorio/lcurse
 sudo zypper rr http://download.opensuse.org/repositories/home:/aboe76/openSUSE_Tumbleweed/ home:aboe76
 sudo zypper remove python3-pipenv python3-virtualenv python3-virtualenv-clone
